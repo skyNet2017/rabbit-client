@@ -51,7 +51,7 @@ object RabbitUi {
                     RabbitMonitorConfigPage::class.java
                 )
             )
-            add(
+           /* add(
                 RabbitMainFeatureInfo(
                     "性能测试",
                     R.drawable.rabbit_icon_global_monitor,
@@ -77,7 +77,7 @@ object RabbitUi {
                     R.drawable.rabbit_icon_block,
                     RabbitUiBlockListPage::class.java
                 )
-            )
+            )*/
 
             add(
                 RabbitMainFeatureInfo(
@@ -87,7 +87,7 @@ object RabbitUi {
                 )
             )
 
-            add(
+           /* add(
                 RabbitMainFeatureInfo(
                     "内存泄漏",
                     R.drawable.rabbit_icon_memory_leak,
@@ -118,7 +118,7 @@ object RabbitUi {
                     R.drawable.rabbit_icon_io_call,
                     RabbitCodeScanPage::class.java
                 )
-            )
+            )*/
 
             add(
                 RabbitMainFeatureInfo(
